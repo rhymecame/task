@@ -1,0 +1,38 @@
+PODS:
+  - ADSModuleMediator (0.1.0):
+    - BeeHive
+  - BeeHive (1.5.1)
+  - Expecta (1.0.6)
+  - Expecta+Snapshots (3.1.1):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - ADSModuleMediator (from `../`)
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+
+EXTERNAL SOURCES:
+  ADSModuleMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ADSModuleMediator: da2250b6c9afdc19ae8b6b552bcfbd467d7637e3
+  BeeHive: b135a33b3519814ec5d117318d205e10c997450f
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 6b70b7716b3c718a037bd76564de0302f0013120
+
+COCOAPODS: 1.4.0.beta.1

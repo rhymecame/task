@@ -1,0 +1,83 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WFShop' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for WFShop
+
+  
+  # WFShop Main Modules
+  
+  pod 'WFServiceProtocols', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFServiceProtocols"
+  pod 'WFHomePage', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFHomePage"
+  pod 'WFCatagory', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCatagory"
+  pod 'WFCart', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCart"
+  pod 'WFUser', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUser"
+  
+  # WFShop sub Modules
+  pod 'WFOrder', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFOrder"
+  pod 'WFProduct', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFProduct"
+  pod 'WFQRScanner', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFQRScanner"
+  pod 'WFNotFound', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNotFound"
+  pod 'WFSearch', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSearch"
+  pod 'WFWebContainer', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFWebContainer"
+  pod 'WFSetting', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSetting"
+  pod 'WFPay', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFPay"
+  pod 'WFAd', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFAd"
+  pod 'WFDebug', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFDebug"
+  
+  # WFShop basic Modules
+  pod 'WFURLDispatcher', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFURLDispatcher"
+  pod 'WFUIComponent', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUIComponent"
+  pod 'WFNetwork', :path => "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNetwork"
+  
+  # third party library
+  pod 'ADSRouter', :path => "/Users/weihecheng/Desktop/ebplatform/task/ADSRouter"
+  pod 'ASDataDrivenLayout', :path => "/Users/weihecheng/Desktop/ebplatform/task/ASDataDrivenLayout"
+  pod 'BeeHive', '1.5.1'
+  pod 'Reveal-SDK', '4', :configurations => ['Debug']
+  pod 'MBProgressHUD'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'SDWebImage/GIF'
+  pod 'Reachability'
+  pod 'WMPageController', '2.3.0'
+  pod 'IDMPhotoBrowser'
+  pod 'FMDB'
+  pod 'HCSStarRatingView', '~> 1.5'
+  pod 'OpenShare'
+  pod 'Realm'
+  pod 'WebViewJavascriptBridge', '~> 6.0'
+  # pod 'TextFieldEffects'
+  pod 'Masonry'
+  pod 'YYModel', :path => "/Users/weihecheng/Desktop/ebplatform/task/YYModel"
+  pod 'PPNumberButton'
+  pod 'MJRefresh'
+  pod 'CPDataDrivenFlowLayout', :git => 'git@github.com:andy-sheng/UICollectionView-CPDataDrivenFlowLayout.git'
+  pod 'MJExtension'
+#  pod 'Pingpp', '~> 2.2.17'
+  pod 'XXNibBridge', '~> 2.3.0'
+  pod 'MTBBarcodeScanner'
+  
+  pod 'WechatOpenSDK'
+  pod 'PSCityPickerView'
+  
+#  pod 'mob_sharesdk'
+#
+#  pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+#  pod 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+#  pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+
+  target 'WFShopTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WFShopUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

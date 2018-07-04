@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'ASDataDrivenLayout_Example' do
+  pod 'ASDataDrivenLayout', :path => '../'
+  pod 'Reveal-SDK', '4'
+  target 'ASDataDrivenLayout_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end

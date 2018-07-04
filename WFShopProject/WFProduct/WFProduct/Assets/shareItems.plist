@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>platformId</key>
+		<string>copyLink</string>
+		<key>icon</key>
+		<string>link</string>
+		<key>title</key>
+		<string>复制链接</string>
+	</dict>
+	<dict>
+		<key>platformId</key>
+		<string>mail</string>
+		<key>icon</key>
+		<string>mail</string>
+		<key>title</key>
+		<string>邮件</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>sms</string>
+		<key>platformId</key>
+		<string>sms</string>
+		<key>title</key>
+		<string>短信</string>
+	</dict>
+	<dict>
+		<key>platformId</key>
+		<string>com.tencent.xin.sharetimeline</string>
+		<key>icon</key>
+		<string>wechat-moments</string>
+		<key>title</key>
+		<string>微信朋友圈</string>
+	</dict>
+	<dict>
+		<key>platformId</key>
+		<string>com.apple.share.SinaWeibo.post</string>
+		<key>icon</key>
+		<string>weibo</string>
+		<key>title</key>
+		<string>微博</string>
+	</dict>
+	<dict>
+		<key>platformId</key>
+		<string>com.tencent.mqq.ShareExtension</string>
+		<key>icon</key>
+		<string>qq</string>
+		<key>title</key>
+		<string>QQ</string>
+	</dict>
+	<dict>
+		<key>platformId</key>
+		<string>com.alipay.iphoneclient.ExtensionSchemeShare</string>
+		<key>icon</key>
+		<string>alipay</string>
+		<key>title</key>
+		<string>支付宝</string>
+	</dict>
+</array>
+</plist>

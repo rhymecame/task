@@ -1,0 +1,345 @@
+PODS:
+  - ADSRouter (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ASDataDrivenLayout (0.1.0)
+  - BeeHive (1.5.1)
+  - CPDataDrivenFlowLayout (0.1.0)
+  - DACircularProgress (2.3.1)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GoAutoSlideView (1.0)
+  - HCSStarRatingView (1.5)
+  - IDMPhotoBrowser (1.10.2):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15)
+  - MTBBarcodeScanner (5.0.3)
+  - OpenShare (0.0.1)
+  - pop (1.0.10)
+  - PPNumberButton (0.7.0)
+  - PSCityPickerView (1.0.0)
+  - Reachability (3.2)
+  - Realm (3.0.2):
+    - Realm/Headers (= 3.0.2)
+  - Realm/Headers (3.0.2)
+  - Reveal-SDK (4)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SDWebImage/GIF (4.2.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - WebViewJavascriptBridge (6.0.3)
+  - WechatOpenSDK (1.8.1)
+  - WFAd (0.1.0)
+  - WFCart (0.1.0):
+    - ADSRouter
+    - BeeHive
+    - MJRefresh
+    - WFNetwork
+    - XXNibBridge
+  - WFCatagory (0.1.0):
+    - ADSRouter
+    - BeeHive
+    - Masonry
+    - SDWebImage
+    - WFNetwork
+    - WFServiceProtocols
+    - WFUIComponent
+    - YYModel
+  - WFDebug (0.1.0):
+    - ADSRouter
+    - HCSStarRatingView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - PPNumberButton
+    - SDWebImage
+    - WFNetwork
+    - WFUIComponent
+    - YYModel
+  - WFHomePage (0.1.0):
+    - ADSRouter
+    - AFNetworking
+    - BeeHive
+    - FMDB
+    - GoAutoSlideView
+    - Masonry
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - WFNetwork
+    - WFServiceProtocols
+    - YYModel
+  - WFNetwork (0.1.0):
+    - AFNetworking
+    - YYModel
+  - WFNotFound (0.1.0):
+    - ADSRouter
+    - Masonry
+  - WFOrder (0.1.0):
+    - ADSRouter
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - WFNetwork
+    - WFUIComponent
+    - YYModel
+  - WFPay (0.1.0):
+    - ADSRouter
+    - BeeHive
+    - Masonry
+    - SDWebImage
+    - WFNetwork
+    - WFServiceProtocols
+    - WFUIComponent
+    - YYModel
+  - WFProduct (0.1.0):
+    - ADSRouter
+    - HCSStarRatingView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - PPNumberButton
+    - SDWebImage
+    - WFNetwork
+    - WFUIComponent
+    - YYModel
+  - WFQRScanner (0.1.0):
+    - ADSRouter
+    - MTBBarcodeScanner
+    - WFUIComponent
+  - WFSearch (0.1.0):
+    - ADSRouter
+    - BeeHive
+    - Masonry
+    - MJRefresh
+    - Realm
+    - SDWebImage
+    - WFNetwork
+    - WFServiceProtocols
+    - WFUIComponent
+    - YYModel
+  - WFServiceProtocols (0.1.0)
+  - WFSetting (0.1.0)
+  - WFUIComponent (0.1.0):
+    - MBProgressHUD
+  - WFURLDispatcher (0.1.0):
+    - ADSRouter
+    - BeeHive
+  - WFUser (0.1.0):
+    - ADSRouter
+    - BeeHive
+    - MJExtension
+    - WFNetwork
+  - WFWebContainer (0.1.0):
+    - ADSRouter
+    - WebViewJavascriptBridge
+  - WMPageController (2.3.0)
+  - XXNibBridge (2.3.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - ADSRouter (from `/Users/weihecheng/Desktop/ebplatform/task/ADSRouter`)
+  - AFNetworking
+  - ASDataDrivenLayout (from `/Users/weihecheng/Desktop/ebplatform/task/ASDataDrivenLayout`)
+  - BeeHive (= 1.5.1)
+  - "CPDataDrivenFlowLayout (from `git@github.com:andy-sheng/UICollectionView-CPDataDrivenFlowLayout.git`)"
+  - FMDB
+  - HCSStarRatingView (~> 1.5)
+  - IDMPhotoBrowser
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MTBBarcodeScanner
+  - OpenShare
+  - PPNumberButton
+  - PSCityPickerView
+  - Reachability
+  - Realm
+  - Reveal-SDK (= 4)
+  - SDWebImage
+  - SDWebImage/GIF
+  - WebViewJavascriptBridge (~> 6.0)
+  - WechatOpenSDK
+  - WFAd (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFAd`)
+  - WFCart (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCart`)
+  - WFCatagory (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCatagory`)
+  - WFDebug (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFDebug`)
+  - WFHomePage (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFHomePage`)
+  - WFNetwork (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNetwork`)
+  - WFNotFound (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNotFound`)
+  - WFOrder (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFOrder`)
+  - WFPay (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFPay`)
+  - WFProduct (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFProduct`)
+  - WFQRScanner (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFQRScanner`)
+  - WFSearch (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSearch`)
+  - WFServiceProtocols (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFServiceProtocols`)
+  - WFSetting (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSetting`)
+  - WFUIComponent (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUIComponent`)
+  - WFURLDispatcher (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFURLDispatcher`)
+  - WFUser (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUser`)
+  - WFWebContainer (from `/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFWebContainer`)
+  - WMPageController (= 2.3.0)
+  - XXNibBridge (~> 2.3.0)
+  - YYModel (from `/Users/weihecheng/Desktop/ebplatform/task/YYModel`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BeeHive
+    - DACircularProgress
+    - FLAnimatedImage
+    - FMDB
+    - GoAutoSlideView
+    - HCSStarRatingView
+    - IDMPhotoBrowser
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MTBBarcodeScanner
+    - OpenShare
+    - pop
+    - PPNumberButton
+    - PSCityPickerView
+    - Reachability
+    - Realm
+    - Reveal-SDK
+    - SDCycleScrollView
+    - SDWebImage
+    - WebViewJavascriptBridge
+    - WechatOpenSDK
+    - WMPageController
+    - XXNibBridge
+
+EXTERNAL SOURCES:
+  ADSRouter:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/ADSRouter"
+  ASDataDrivenLayout:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/ASDataDrivenLayout"
+  CPDataDrivenFlowLayout:
+    :git: "git@github.com:andy-sheng/UICollectionView-CPDataDrivenFlowLayout.git"
+  WFAd:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFAd"
+  WFCart:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCart"
+  WFCatagory:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFCatagory"
+  WFDebug:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFDebug"
+  WFHomePage:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFHomePage"
+  WFNetwork:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNetwork"
+  WFNotFound:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFNotFound"
+  WFOrder:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFOrder"
+  WFPay:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFPay"
+  WFProduct:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFProduct"
+  WFQRScanner:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFQRScanner"
+  WFSearch:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSearch"
+  WFServiceProtocols:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFServiceProtocols"
+  WFSetting:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFSetting"
+  WFUIComponent:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUIComponent"
+  WFURLDispatcher:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFURLDispatcher"
+  WFUser:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFUser"
+  WFWebContainer:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/WFShopProject/WFWebContainer"
+  YYModel:
+    :path: "/Users/weihecheng/Desktop/ebplatform/task/YYModel"
+
+CHECKOUT OPTIONS:
+  CPDataDrivenFlowLayout:
+    :commit: a6540ca8a8669376c7a7d0d8fbfe6c55c741a7cb
+    :git: "git@github.com:andy-sheng/UICollectionView-CPDataDrivenFlowLayout.git"
+
+SPEC CHECKSUMS:
+  ADSRouter: 6f81d859a5b9ef9e1a7260c998221ba35460c9b9
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASDataDrivenLayout: 44e93f5523bf8d3e60b455f4e31052be9f45ec31
+  BeeHive: b135a33b3519814ec5d117318d205e10c997450f
+  CPDataDrivenFlowLayout: 59f046eeec88703f484a4b3eb173f8df783f4792
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GoAutoSlideView: 349127c6f59f85bacbce8aeabb52274e99c27922
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  MTBBarcodeScanner: 3ce0f1b0085ef00c726ded663c490a63b29c9aa5
+  OpenShare: a560580dbb729d5c0c3cc1ee84cd6aa4a07e94c6
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PPNumberButton: a053cde152b0e683302ce41a4755bfa02e1b3a83
+  PSCityPickerView: 88ecae3def30a127152d75a87df22ff3d1e6e770
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
+  Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WechatOpenSDK: 491d965d79335070328571d3e79f714549e79a5e
+  WFAd: bef93d3c28dae4661290c00c4036fd6a9a42e51a
+  WFCart: e184af5e37607e3e61ba58966fe3914b061187e4
+  WFCatagory: 0d22ac71b10489b92a2d3aca79d8157ee8d61c9d
+  WFDebug: f86454a2516491e17aa5821cd60265385e995c35
+  WFHomePage: c54ce67cd10c030054acc6c2a484327d53e87485
+  WFNetwork: cf5451955acde167b15112b03020ff581468a778
+  WFNotFound: 7fd4b668ba5b0c1b6be104357ef535fbd6bd03ad
+  WFOrder: 8ba4a4de3c4f756ac79c663a919249f60e329f3d
+  WFPay: 0dc0c6768ad4d2395fa1a4d9b89db547d37bee1c
+  WFProduct: 26bf8a609e8ed949dca830eebdabfcc2a00e56da
+  WFQRScanner: 9de25f633d4c112e27557f2f4c737340d6fee9ba
+  WFSearch: d909e8b303060932ffe38172260490ff764cae33
+  WFServiceProtocols: d6d57cd52de213e86a55a2292b333a34120121fb
+  WFSetting: e28b2a479dfe39f1778ab5497f961d99b166fd74
+  WFUIComponent: a87e5de421d03b0ced6ae5793200ad97bd0a449d
+  WFURLDispatcher: cfae30846013be7c608b8222f16807f68f468b73
+  WFUser: a37bee61c79b3c76452827e027b513cf7af436ce
+  WFWebContainer: 011dd9ab766e9b40d170dd08a2df0aa135e8212f
+  WMPageController: 9f219bb8912a1a1f51af11fde61e2682a7b7e7f2
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
+  YYModel: eb86cab3f5071337137ed680c72c1de4fc378356
+
+PODFILE CHECKSUM: c9f1a747b2633ab1b8d21483b51015b722f56637
+
+COCOAPODS: 1.5.3
