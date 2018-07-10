@@ -8,8 +8,8 @@
 #import "WFAPIFactory.h"
 #import "WFNetworkConsts.h"
 
-static NSString * const WFBaseURL = @"https://wfshop.andysheng.cn/";
-
+//static NSString * const WFBaseURL = @"https://wfshop.andysheng.cn/";
+static NSString * const WFBaseURL=@"http://www.jessicaleech.com/";
 NSString *WFDelAndAddSlash(NSString *url) {
     NSMutableString *res = [NSMutableString stringWithString:url];
     if (![res hasSuffix:@"/"]) {
