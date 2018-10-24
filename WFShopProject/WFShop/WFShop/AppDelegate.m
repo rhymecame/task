@@ -68,7 +68,8 @@
     
     id<WFLaunchAdProtocol> launchAdService = [[BeeHive shareInstance] createService:@protocol(WFLaunchAdProtocol)];
     UIViewController *adVc = [launchAdService launchAdVC:^{
-        self.window.rootViewController = rootVC;
+       self.window.rootViewController = rootVC;
+        
     }];
     self.window.rootViewController = adVc;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -76,6 +77,11 @@
             self.window.rootViewController = rootVC;
         }
     });
+    if (self.window.rootViewController != rootVC) {
+        self.window.rootViewController = rootVC;
+    }//跳过广告，方便调试
+    
+    
     self.window.tintColor = [UIColor wf_mainColor];
     [self.window makeKeyAndVisible];
     

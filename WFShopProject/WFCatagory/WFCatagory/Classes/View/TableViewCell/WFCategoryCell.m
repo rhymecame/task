@@ -54,6 +54,7 @@
     
     _indicatorView = [[UIView alloc] init];
     _indicatorView.hidden = NO;
+
     _indicatorView.backgroundColor = [UIColor wf_mainColor];
     [self addSubview:_indicatorView];
 }

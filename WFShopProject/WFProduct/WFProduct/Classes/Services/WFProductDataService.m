@@ -58,7 +58,9 @@
 }
 
 - (void)getProductWithProductId:(NSString *)productId callback:(void (^)(WFProduct *))callback {
-    NSString *apiUrl = [WFAPIFactory URLWithNameSpace:@"product" objId:productId path:nil];
+//  NSString *apiUrl = [WFAPIFactory URLWithNameSpace:@"product" objId:productId path:nil];
+    NSString *apiUrl = [WFAPIFactory URLWithNameSpace:@"product" objId:nil path:nil];
+//测试数据，先把参数productId设为nil
     [WFNetworkExecutor requestWithUrl:apiUrl parameters:nil option:WFRequestOptionGet complete:^(NSURLResponse *response, WFNetworkResponseObj *obj, NSError *error) {
         if (callback) {
             callback([WFProduct yy_modelWithJSON:obj.data]);

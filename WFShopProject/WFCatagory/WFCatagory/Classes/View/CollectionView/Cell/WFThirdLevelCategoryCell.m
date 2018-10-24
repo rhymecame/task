@@ -34,7 +34,7 @@
 
 @implementation WFThirdLevelCategoryCell
 
-#pragma mark - Intial
+#pragma mark - Initial
 - (instancetype)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
