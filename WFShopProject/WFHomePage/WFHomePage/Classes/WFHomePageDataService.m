@@ -14,6 +14,7 @@
 
 - (void)getHomePageRows:(void (^)(NSArray<WFHomePageRow *> *))callback {
     NSString *apiUrl = [WFAPIFactory URLWithNameSpace:@"homepage" objId:nil path:nil];
+//    apiUrl=@"http://127.0.0.1:8080/eplatform/homepage";
     __weak typeof(self) weakSelf = self;
     [WFNetworkExecutor requestWithUrl:apiUrl parameters:nil option:WFRequestOptionGet complete:^(NSURLResponse *response, WFNetworkResponseObj *obj, NSError *error) {
         __strong typeof(self) sSelf = weakSelf;

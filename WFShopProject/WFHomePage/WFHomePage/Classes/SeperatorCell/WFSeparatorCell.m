@@ -49,13 +49,16 @@
 - (void)setUpWithSeparator:(WFSeparatorData *)separatorData {
     _data = separatorData;
     if (![_data.imgUrl isEqualToString:@""]) {
-        [_background sd_setImageWithURL:[NSURL URLWithString:_data.imgUrl]];
+        
+//        [_background sd_setImageWithURL:[NSURL URLWithString:_data.imgUrl]];
+        [_background sd_setImageWithURL:[NSURL URLWithString:@"http://www.jessicaleech.com/img/homepage/jd/sperator/1.jpg"]];
     }
     _label.text = _data.title;
 }
 
 - (void)clicked {
     if (![_data.actionUrl isEqualToString:@""]) {
+        NSLog(@"%@",_data.actionUrl);
         id<WFURLDispatcherProtocol> urlDispatcher = [[BeeHive shareInstance] createService:@protocol(WFURLDispatcherProtocol)];
         [urlDispatcher openUrlString:_data.actionUrl];
     }

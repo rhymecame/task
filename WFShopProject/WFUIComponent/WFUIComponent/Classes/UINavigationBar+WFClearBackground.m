@@ -10,10 +10,10 @@
 
 @implementation UINavigationBar (WFClearBackground)
 
-- (void)wf_setClearBackgroundColor {
-    [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-    [self setTranslucent:YES];
-    [self setShadowImage:[UIImage new]];
-}
+//- (void)wf_setClearBackgroundColor {
+//    [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    [self setTranslucent:YES];
+//    [self setShadowImage:[UIImage new]];
+//}
 
 @end

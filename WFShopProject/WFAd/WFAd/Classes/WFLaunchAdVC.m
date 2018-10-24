@@ -30,7 +30,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_imgView sd_setImageWithURL:[NSURL URLWithString:@"https://wfshop.andysheng.cn/img/ad.png"]];
+//   [_imgView sd_setImageWithURL:[NSURL URLWithString:@"https://wfshop.andysheng.cn/img/ad.png"]];
+    [_imgView sd_setImageWithURL:[NSURL URLWithString:@"http://127.0.0.1:8080/eplatform/img/ad.jpg"]];
+
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
